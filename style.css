@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvettica, sans-serif; /* select first font, if avaiable, if not second, etc... */
+    background-color: #333; /* duh */
+}
+
+header {
+    width: 80%; /* take 80% of the browser */
+    background-color: black;
+    color: white;
+    margin-right: auto; /* so header can be in the middle */
+    margin-left: auto; /* so header can be in the middle */
+    padding: 10px; /* gives more space from top of header */
+    overflow: hidden; /* hides elements that are overflow from other elements (header & nav) */
+}
+
+hgroup {
+    width: 70%; /* 70% of it's parent which is header! */
+    float: left; /* moves it to the left of box */
+}
+
+hgroup h1 { /* refers to hgroup's h1 element */
+    padding-top: 0;
+    line-height: 1em; /* pulls everything vertically */
+}
+
+hgroup h2 {
+    text-transform: uppercase; /* transforms ALL letter to uppercase */
+    font-size: 1.2em; /* 20% larger then default font size */
+    line-height: 1em; /* reduce space h2 takes vertically */
+}
+
+nav {
+    width: 30%; /* the other 30% of the header */
+    float: right; /* floats to the right of hgroup and inside header */
+}
+
+nav ul {
+    list-style-type: none; /* get's rid of the bullets! */
+}
+
+nav li {
+    float: left; /* all the list items floats to the left */
+    margin-right: 10px; /* gives some space between */
+}
+
+section {
+    
+    width: 80%; /* take 80% of the browser */
+    background-color: white;
+    color: black;
+    margin-right: auto; /* so header can be in the middle */
+    margin-left: auto; /* so header can be in the middle */
+    border-color: black; /* duh, duh for borders :) */
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    
+}
+
+h1 {
+    font-size: 2em; /* 200% larger of default font size of browser */
+    margin: 0; /* this reset the margin */
+    padding: 0; /* this reset the padding */
+    padding-top: 10px; /* then we give it more to our liking */
+}
+
+h2 {
+    font-size: 1.6; /* 60% larger of default font size of browser */
+}
+
+h3 {
+    font-size: 1.3; /* 30% larger of default font size of browser */
+}
+
+p {
+    margin: 10px; /* gives a little of indent's from both sides */
+}
+
+img {
+    float: right;
+    margin: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px 1px #ccc;
+}
+
+aside {
+    width: 80%; /* 80% of section parent */
+    margin-right: auto;
+    margin-left: auto;
+    font-size: .8em;
+    background: #eeff99;
+    padding: 20px;
+    border: 1px #696;
+    border-radius: 20px;
+}
+
+footer {
+    
+    width: 80%; /* take 80% of the browser */
+    background-color: white;
+    color: black;
+    margin-right: auto; /* so header can be in the middle */
+    margin-left: auto; /* so header can be in the middle */
+    height: 50px; /* makes it thicker */
+    padding: 8px; /* makes it wider */
+}
